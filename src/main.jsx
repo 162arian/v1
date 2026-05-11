@@ -101,6 +101,42 @@ function App() {
       <p>Schick mir dein Ziel, deine Marke oder dein Rohmaterial. Ich mache daraus eine hochwertige visuelle Präsentation.</p>
       <a className="primary" href="mailto:hello@arianansari.de"><Mail size={18}/> Kontakt aufnehmen</a>
     </section>
+    <footer className="footer section compact">
+  <div className="footerGrid">
+    <div>
+      <div className="footerBrand">
+        <span>A</span>
+        Arian Ansari
+      </div>
+
+      <p className="footerText">
+        High Quality Visuals, Video Editing, VFX, SFX und GFX für moderne Unternehmen,
+        Marken und Premium-Projekte.
+      </p>
+    </div>
+
+    <div>
+      <h4>Navigation</h4>
+      <div className="footerLinks">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+
+    <div>
+      <h4>Rechtliches</h4>
+      <div className="footerLinks">
+        <a href="/impressum">Impressum</a>
+        <a href="/datenschutz">Datenschutz</a>
+      </div>
+    </div>
+  </div>
+
+  <div className="footerBottom">
+    <p>© 2026 Arian Ansari. Alle Rechte vorbehalten.</p>
+  </div>
+</footer>
   </main>;
 }
 
